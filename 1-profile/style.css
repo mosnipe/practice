@@ -1,0 +1,67 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+.header-ttl {
+    font-size: 32px;
+    text-align: center;
+    color: aliceblue;
+    padding: 8px;
+}
+
+body {
+    font-family: 'Kaisei Decol', serif;
+  }
+
+.selfish {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 64px;
+    font-size: 64px;
+    border-radius: 32px;
+    background-color: #fff111;
+    padding: 64px;
+
+}
+
+
+
+img {
+    width: 480px;
+    height: auto;
+    border-radius: 32px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    padding: 8px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column; /* 子要素を縦方向に並べる */
+    justify-content: center; /* 子要素全体を縦方向で中央揃え */
+    align-items: center; /* 子要素を横方向で中央揃え */
+    width: 320px;
+    height: 320px;
+    border-radius: 32px;
+    text-align: center;
+    padding: 8px;
+    background-color: blue;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 32px;
+    margin-top: 32px;
+    background-color: gray;
+}
